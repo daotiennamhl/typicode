@@ -1,14 +1,12 @@
 {
-  "something": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "screens": [
+    {
+      "name": "Screen 16",
+      "description": "This is Description",
+      "group_id": "3",
+      "type": "FORM",
+      "items": "[{\"name\":\"Mặc định\",\"items\":[{\"config\":{\"icon\":\"fas fa-pencil-ruler\",\"interactive\":true,\"content\":\"<p>Rich text editor</p>\",\"renderVarHtml\":null,\"label\":\"\"},\"inspector\":[{\"type\":\"FormTextArea\",\"field\":\"content\",\"config\":{\"rows\":5,\"label\":\"Content\",\"helper\":\"The HTML text to display\",\"value\":\"\"}},{\"type\":\"FormCheckbox\",\"field\":\"renderVarHtml\",\"config\":{\"label\":\"Render HTML from a Variable\",\"helper\":\"\",\"value\":\"\"}},{\"type\":\"FormInput\",\"field\":\"conditionalHide\",\"config\":{\"label\":\"Visibility Rule\",\"helper\":\"This control is hidden until this expression is true\"}},{\"type\":\"FormInput\",\"field\":\"customCssSelector\",\"config\":{\"label\":\"CSS Selector Name\",\"helper\":\"Use this in your custom css rules\",\"validation\":\"regex: [-?[_a-zA-Z]+[_-a-zA-Z0-9]*]\"}}],\"component\":\"FormHtmlViewer\",\"editor-component\":\"FormHtmlEditor\",\"editor-control\":\"FormHtmlEditor\",\"label\":\"Rich Text\"}]}]",
+      "custom_css": ""
+    }
+  ]
 }
